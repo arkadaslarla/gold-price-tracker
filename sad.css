@@ -1,0 +1,149 @@
+body {
+    background-color: #131313;
+}
+  
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+  
+#gameBoard {
+	border: 3px solid #00ffff;
+	border-radius: 10px;
+	background-color: #1c1c1c;
+	animation: targetFadeIn 0.5s ease-in-out;
+}
+@keyframes targetFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.90);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+  
+.scoreboard {
+	border: 3px solid #00ffff;
+	border-radius: 5px;
+	background-color: #3d3d3d;
+	color: #00ffff;
+	margin-bottom: 10px;
+	width: 380px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	animation: targetFadeIn 0.5s ease-in-out;
+	animation-name: targetFadeIn;
+	
+}
+
+  
+.heart {
+    color: #ff0066;
+    margin-right: 5px;
+}
+  
+#time {
+    color: #00ffff;
+}
+  
+#score {
+    color: #00ffff;
+}
+
+.easy-button {
+    background-color: #242424;
+    border: none;
+    color: #cccccc;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+	animation: targetFadeIn 0.5s ease-in-out;
+	animation-name: targetFadeIn;
+}
+
+.medium-button {
+    background-color: #242424;
+    border: none;
+    color: #cccccc;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+	animation: targetFadeIn 0.5s ease-in-out;
+	animation-name: targetFadeIn;
+}
+
+.hard-button {
+    background-color: #242424;
+    border: none;
+    color: #cccccc;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+	animation: targetFadeIn 0.5s ease-in-out;
+	animation-name: targetFadeIn;
+}
+
+.easy-button:hover,
+.medium-button:hover,
+.hard-button:hover {
+    background-color: #2e2e2e;
+}
+
+.easy-button:active,
+.medium-button:active,
+.hard-button:active {
+    background-color: #1c1c1c;
+    transform: translateY(2px);
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+ 
+ 
+  
+
+
+

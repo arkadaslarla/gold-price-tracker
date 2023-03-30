@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clicking Game</title>
+	<link rel="stylesheet" href="sad.css">
+	<style>
+		.heart {
+			color: red;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="game-container">
+		
+		<div class="scoreboard">
+			<span>Score: <span id="score">0</span></span>
+			<span>
+				
+				Lives: 
+				<span class="heart">❤️</span>
+				<span class="heart">❤️</span>
+				<span class="heart">❤️</span>
+			</span>
+			
+			<span>Time: <span id="time">60</span></span>
+		</div>
+		
+		<canvas id="gameBoard" width="400" height="400"></canvas>
+		<div id="buttonContainer">
+			<button id="easyButton" class="easy-button">Easy</button>
+		<button id="mediumButton" class="medium-button">Medium</button>
+
+		<button id="hardButton" class="hard-button">Hard</button>					 
+
+</div>
+	</div>
+	<script src="sad.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
